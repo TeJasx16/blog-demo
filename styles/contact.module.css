@@ -1,0 +1,50 @@
+.in{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+       padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.pd{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+.pd input{
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 20rem;
+    height: 30px;
+}
+.pd textarea{
+    border: 1px solid black;
+    border-radius: 8px;
+    min-width: 20rem;
+    height: 30px;
+}
+.sb{
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width:350px) {
+    .pd{
+        padding: 1px;
+        margin: 1px;
+        font-size: 1rem;
+    }
+  .pd input{
+      min-width: 35vw;
+  }  
+  .pd textarea{
+      min-width: 35vw;
+  }
+  
+}

@@ -1,0 +1,25 @@
+.men{
+    text-align: center;
+}
+.pp{
+    padding: 2px 5px;
+}
+.hh3{
+    text-decoration: underline;
+    
+
+}
+
+@media only screen and (max-width:350px) {
+    .men{
+        text-align: center;
+    }
+    .men h2{
+        font-size: 1rem;
+
+    }
+    .pp{
+        padding: 0px 2px;
+
+    }
+}
